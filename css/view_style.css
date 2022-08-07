@@ -1,0 +1,37 @@
+.row{
+	padding: 1px;
+}
+img{
+    width: 100%;
+}
+.row div {
+  padding: 1px 1px !important;
+  margin: 1px 0px !important;
+}
+button, textarea {
+  width: 100%;
+  height: 60px;
+}
+textarea[name = "str_timeline[]"]{
+	padding: 20% 0;
+}
+.tittle-header button {
+  width: 100%;
+  height: 30px;
+}
+iframe {
+  height: 600px;
+}
+
+@media (max-width: 1000px){
+  iframe{
+    height: 200px;
+  }
+  .subtable{
+    height: 50vh;
+  }
+  button, textarea {
+	  width: 100%;
+	  height: 60px;
+	}
+}
